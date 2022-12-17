@@ -6,8 +6,10 @@ import androidx.activity.compose.setContent
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.vickycodes.glyph.ui.component.AntennaLine
 import com.vickycodes.glyph.ui.component.CameraCurve
 import com.vickycodes.glyph.ui.component.ChargerCurve
+import com.vickycodes.glyph.ui.component.ChargerLine
 import com.vickycodes.glyph.ui.theme.GlyphTheme
 
 class MainActivity : ComponentActivity() {
@@ -16,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             GlyphTheme {
                 // A surface container using the 'background' color from the theme
-                CameraCurve()
+                ChargerLine()
             }
         }
     }
